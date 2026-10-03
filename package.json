@@ -1,0 +1,24 @@
+{
+  "name": "phd-part-time-portal",
+  "version": "1.0.0",
+  "description": "VFSTR Part-Time Research Scholar Progress Tracking Portal (Deployed on Vercel with Supabase PostgreSQL)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "serve public",
+    "vercel:dev": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
